@@ -15,7 +15,7 @@ RUN rm -rf kider kider.zip
 
 CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
 
-EXPOSE 80
+EXPOSE 80 22
 
 
 
